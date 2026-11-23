@@ -6,6 +6,8 @@
   --white: #fff;
   --color-red: #CE2729;
   --color-light-red: #b32224;
+  --color-light-yellow: #B9B3A7;
+  --color-highlight: #CBAA7B;
   --font-sans: "Inter", sans-serif;
   --font-heading: "Montserrat", sans-serif;
 }
@@ -13,6 +15,9 @@
 @layer components {
   .nav-link {
     @apply text-white font-heading font-medium text-xl
+  }
+  .highlight-border {
+    @apply border-2 border-highlight rounded-lg shadow-[0px_0px_20px_0px_rgba(203,170,123,0.5)]
   }
 }
 
