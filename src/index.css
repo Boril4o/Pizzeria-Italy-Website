@@ -8,6 +8,7 @@
   --color-light-red: #b32224;
   --color-light-yellow: #B9B3A7;
   --color-highlight: #CBAA7B;
+  --color-green: #1D823A;
   --font-sans: "Inter", sans-serif;
   --font-heading: "Montserrat", sans-serif;
 }
@@ -18,6 +19,9 @@
   }
   .highlight-border {
     @apply border-2 border-highlight rounded-lg shadow-[0px_0px_20px_0px_rgba(203,170,123,0.5)]
+  }
+  .text-style {
+    @apply text-xl text-light-yellow font-sans
   }
 }
 
